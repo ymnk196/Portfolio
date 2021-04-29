@@ -1,0 +1,212 @@
+.imageStylingForWalpaper {
+    height: 250px;
+    width: 100%;
+    object-fit: fill;
+    border-style: inset;
+    border-color:whitesmoke;
+    border-right: none !important;
+    border-left: none !important;
+}
+.imageStylingForProfile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -57px;
+    position: absolute;
+    margin-left: 76px;
+    object-fit: cover;
+    border-style: inset;
+    border-color: whitesmoke;
+}
+.imageStylingForProfileExpanding {
+    height: 350px;
+    width: 57%;
+    border-radius: 50%;
+    margin-left: 20%;
+    object-fit: cover;
+}
+.headerStyling {
+    color: #332b2b;;
+    font-family:'Times New Roman', Times, serif;
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: whitesmoke !important ;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+}
+.card {
+    display: inline-flex;
+    box-shadow: 5px -6px rgb(204, 204, 204);
+    cursor: pointer;
+    width:100%;
+}
+.container {
+    background-color: black;
+    box-shadow: 0px -11px #d93333;
+}
+body {
+    max-width: 100% !important;
+}
+.aboutColor {
+    color:whitesmoke !important;
+}
+.container .walpaper {
+    margin-left: -24px !important;
+    margin-right: -24px !important;
+}
+.PortfolioPopup .modal-header {
+    background-color: lightskyblue !important;
+}
+.gap {
+   background-color: whitesmoke;
+   margin-top: 20px;
+}
+.profileView {
+    box-shadow: none;
+}
+.headerProfileimageStyle {
+    width: 40px;
+    height: 41px;
+    border-radius: 50%;
+    margin: 6px;
+    float: right;
+}
+.headerPopup .modal-content {
+    width: 35% !important;
+    height: 251px !important;
+    margin-top: 20px !important;
+    margin-inline-end: -164px !important;
+    float: right !important;
+    margin-inline: -20.5% !important;
+    margin-top: 3% !important;
+}
+.headerPopup .modal-title {
+    height: 0px !important;
+    margin-inline: 72px;
+    margin-top: -31px;
+    background: lightskyblue !important;
+}
+.headerPopup .modal-header {
+    background: lightskyblue !important;
+}
+.headerImageStylingForProfileExpanding {
+    height: 66px !important;
+    width:30% !important;
+    border-radius: 50%;
+    margin-inline: 72px;
+}
+.centerAdjustment {
+    text-align: center;
+    margin-top:4px;
+}
+.removeShadow {
+   box-shadow: none !important;
+   background-color: white;
+   border-bottom:11px solid black ;
+}
+.textColor {
+   color: whitesmoke;
+}
+.headerAdjustment {
+    margin-top:8px;
+    font-family:initial;
+    text-shadow: 2px 2px floralwhite;
+}
+.buttonAdjustment {
+    width: -moz-max-content;
+    padding: 10px 21px;
+    box-shadow: 0px 4px 8px #d93333;
+    border: 2px solid brown;
+    font-family: initial;
+    background: whitesmoke;
+    border-radius: 24px 24px;
+    text-shadow:-1px 1px ;
+    color:#d93333;
+}
+.buttonAdjustment:hover {
+    box-shadow: 0px 4px 8px green;
+    border: 2px solid green;
+    font-family: initial;
+    background: whitesmoke;
+    border-radius: 24px 24px;
+    text-shadow:-1px 1px ;
+    color:green;
+}
+.lapContactDetails {
+    display: block !important;
+}
+.mobileContactDetails {
+    display: none !important;
+}
+.h3, h3 {
+    font-size: 1.5rem !important;
+}
+.close {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-size: 25px;
+}
+.close .sr-only {
+    display: none;
+}
+.background1 , .background2 , .background3 {
+    border-radius: 50%;
+    height: 24px;
+    width: 26px;
+    margin-right: 8px;
+    margin-top:14px;
+    border:none;
+}
+.background2 {
+    background: rgb(32, 33, 79) !important;
+}
+.background1 {
+    background:#4b4747 !important;
+}
+.background3 {
+    background:#68a4a4 !important;
+}
+
+ @media only screen and (max-width: 800px) {
+    .headerPopup .modal-content {
+        width: 80% !important;
+        height: 251px !important;
+        float: left !important;
+        margin-top:12.7% !important;
+        margin-inline: 8.5% !important;
+        margin-inline-start: 10% !important;
+    }
+    .ContactDetailWidthAdjustment {
+        width: 100%;
+    }
+    .lapContactDetails {
+        display: none !important;
+    }
+    .mobileContactDetails {
+        display: block !important;
+    }
+    .h3, h3 {
+    font-size: 1.4rem !important;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .background1 , .background2 , .background3 {
+        border-radius: 50%;
+        height: 14px;
+        width: 20px;
+        margin-right: 3px;
+        margin-top: 17px;
+        border:none;
+    }
+}
