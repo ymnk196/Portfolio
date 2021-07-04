@@ -1,5 +1,5 @@
 .imageStylingForWalpaper {
-    height: 300px;
+    height: 400px;
     width: 100%;
     object-fit: fill;
     border-style: inset;
@@ -209,4 +209,10 @@ body {
         margin-top: 17px;
         border:none;
     }
+    body {
+	overflow:hidden;
+    }
+    .imageStylingForWalpaper {
+	    height: 400px;
+      }
 }
